@@ -12,8 +12,4 @@ A battery pack with a USB to micro-USB cable can also power a Raspberry Pi Pico.
 
 - Connect the Raspberry Pi Pico to your transformer or battery pack.
 
-![micro-USB being connected to the Raspberyy Pi Pico](images/connect-micro-usb.gif)
-
-- If the Raspberry Pi Pico is sufficiently powered, the onboard LED should blink seven times.
-
-![onboard LED of Raspberry Pi Pico blinking 7 times](images/7_blink_led.gif)
+![micro-USB being connected to the Raspberry Pi Pico](images/connect-micro-usb.gif)
