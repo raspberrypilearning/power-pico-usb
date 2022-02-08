@@ -1,59 +1,19 @@
-## Introduction
+## Power a Raspberry Pi Pico using a USB supply
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+The Raspberry Pi Pico requires a power supply capable of delivering a minimum of 1.8 volts and a maximum of 5.5V.
 
-### What you will make
+Most micro-USB transformers can provide power to your Raspberry Pi Pico in this range. For instance the official Raspberry Pi micro-USB transformer provides up to 2.5A of current at 5.1V
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+![Official Raspberry Pi power supply shown from the pin side](images/transformer.png)
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+A battery pack with a USB to micro-USB cable can also power a Raspberry Pi Pico. This battery pack provides up to 2.1A of current at 5V.
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+![A generic barrety pack showing the side and the technical specifications](images/battery_pack.png)
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+- Connect the Raspberry Pi Pico to your transformer or battery pack.
 
-+ A computer or tablet capable of running Scratch 3
+![micro-USB being connected to the Raspberyy Pi Pico](images/connect-micro-usb.gif)
 
-### Software
+- If the Raspberry Pi Pico is sufficiently powered, the onboard LED should blink seven times.
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+![onboard LED of Raspberry Pi Pico blinking 7 times](images/7_blink_led.gif)
