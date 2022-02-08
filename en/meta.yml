@@ -1,0 +1,9 @@
+title: Powering a Raspberry Pi Pico with a USB power supply
+hero_image: images/banner.png
+description: power-pico-usb description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-02-08"
+steps:
+  - title: Power a Raspberry Pi Pico using a USB supply
